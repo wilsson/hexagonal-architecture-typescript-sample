@@ -1,0 +1,31 @@
+{
+  "name": "hexagonal-architecture-typescript-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "wilsson",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/inquirer": "^7.3.1",
+    "inquirer": "^7.3.3",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.2",
+    "typescript": "^4.2.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".*\\.spec\\.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "collectCoverageFrom": [
+      "**/*.(t|j)s"
+    ],
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+}
